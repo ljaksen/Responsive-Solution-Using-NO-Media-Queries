@@ -1,0 +1,48 @@
+body {
+    font-family:aa;
+    background:hsl(212, 45%, 89%)
+}
+
+
+.mother{
+    display: flex;
+    Position: relative;
+    justify-content: center;
+}
+.container {
+    background: hsl(0, 0%, 100%);
+    position:absolute;
+    display:grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width:30vw;
+    height:47vw;
+    box-shadow: 0px 0px 50px 5px hsl(220, 15%, 55%);
+}
+
+.container img {
+    position:absolute;
+    top:2.3vw;
+    height:25vw;
+    width:25vw;
+    border-radius: 20px
+}
+.container h1 {
+    font-family:outfit;
+    font-weight: 700;
+    position:absolute;
+    top:27vw;
+    font-size: clamp(.3rem, 2.5vw, 4rem)
+
+}
+
+.container p {
+    position: absolute;
+    top:36vw;
+    font-family:outfit;
+    font-weight:400;
+    font-size: clamp(.3rem, 1.75vw, 4rem);
+    color:hsl(220, 15%, 55%)
+}
+
